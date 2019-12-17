@@ -1,0 +1,55 @@
+Comparison -> Waterfall, Agile & DevOps methodologies
+Waterfall Model
+Definition
+its technique to maintain in software development life cycle
+if you do that we ensure quality of product in right time
+everything is manual
+
+Stages
+Requirements
+Information Gathering from Customer
+Technologies need to implement to satisfy the requirement
+Tools to be satisfity the requirement
+Cost based information gathering
+Team based estimation workwise and costwise
+Pictorial representsion work flow(Flow chart)
+Standarization of documents
+
+Design
+Flowchart work flow oriented 
+team seperation and allocation of work resource
+os, network, security level of desigining
+sharing the work flow 
+Implementation
+architect implementation
+Developer skeleton
+integration part with different teams
+functional implementation
+
+Verification
+testing(unit, inte)
+testing environment
+developing environment
+
+Maintenance
+regular maintenance
+Annual maintence AMC
+
+Waterfall model is breakdown of your project activities in to linear sequential phases, where each phase depends on deliveries of the previous stageand corresponds yto specilisation of tasks.
+
+Iterative Model
+Spiral Model
+V-Model
+Bigbang model
+
+SDLC is a process used by sofware industry to design, develop and test high quality softwares
+
+Planning 
+Defining
+Designing
++
+Testing 
+Deployment
+
+
+

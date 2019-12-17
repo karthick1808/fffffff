@@ -1,0 +1,132 @@
+DEVOPS
+Development + Operational level of approach
+
+If u make the sdlc with automated approach is nothing but devops.
+
+Storage Concepts
+File based Storage 
+Block Based Storage
+Object Based Storage
+
+File Systems
+Fat
+fat32
+ntfs
+ext2
+ext3
+ext4
+ofs
+btrfs
+
+Pipeline? -> multiple chained stages/Activities apporoach for end to end of SDLC.
+Continuous development?-> While during the development stages each and every modifications to be tested to ensure the quality in company end.
+Continuous Deployment? -> after/End of stage deployement/modification in client end is said to known as deployement for maintenance purpose.
+SCM- > Source Code Manager
+Storage point with the capablity of versioning control team collabration features
+Hashes(tags)
+
+Versioning Control -> method to continuos monitor on file system and it will create an check point if the file gets modifird/deleted
+Those check point are names as hashes/tags
+
+Team Collabration/Branches:
+Nothing but cloned copy of entire source code with your own version
+final - > Master
+Clone final code in your branch(folder) and modify the original source code and give extra features to that.
+If u want to merge it to back to master branch u need approval from your manger to do that master branch..
+
+SCM -> they will share the corrspnding storage poin to all the teams, each and every team create their own copy of source code/branch and they will work indepently on that and they will apply all the features to that, Finally after all the things ended they will merge.
+
+GITHUB/GITLAB
+SUB Version
+Bit bucket
+Code Commit
+
+
+
+
+Linking
+Build tools- ANT, Maven, Gradle, Nexus
+SCM -> Github, SVN, Bitbucket, Code Commit
+Continuos Integration-> 
+Automated Approach
+SCM -> if will keep on monitor for change, it will send trigger to another tools also
+
+scm send trigger to jenkins
+scm 0 no changes
+scm 1 means changes
+jenkins ablity to receive 0 1 means break human integration
+
+CI
+software acts as middle man that got ability to get and send information from tools
+it got ability to command what to do and what no to do
+to gater exact info about lifecyle at any point in time without human interaction
+it got ablity to inform about sucessful/failure build to all the team members about the status
+Softwares Suported
+Jenkins
+Team City
+Bamboo
+Drone
+
+Build tool
+Tool that convert original source code in to executable format along with dependencies
+java -> jar/war(Ant, Maven, Gradle)
+windows -> exe (npm, nexus)
+
+Output format to hide your code code along with dependencies 
+software will do this hididng proceure and nothin but build tool
+wildows - npm, nexus
+java - ant,maven,gradle
+
+Repository Manager
+After compiling the sucessful project without error, Ecah and every modifiation output files are saved in some location by means of automated manner
+those kind of tools are names as repository manger 
+Softwares
+Jfrog
+Nexus
+
+Source -> scm -> ci -> build ,Test, Repository
+
+Configuration Management
+Its is the concept of deploying the builded output files in the architecture
+
+Architecture
+1. Physical System
+2. Cloud
+3. Micro Containers
+
+* Cluster (combining multiple architecture with extra features like load balancing, autoscalling, Failover recovery concept)
+
+this kind opertion everything will deals in this type of concept
+
+softwares
+ansible
+chef
+puppet
+salt
+
+IAC
+Infrastructure as Code
+Infrastructure as code (IaC) is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
+
+Configturation Management tools
+this option
+Ansible
+chef
+puppet 
+salt
+Provisioning - to create new architecture..
+deployemnt - altering the existing architecture..
+
+mainting the architeture but provisiong and deployment e by means of source code
+
+
+
+
+
+
+
+
+
+ 
+
+

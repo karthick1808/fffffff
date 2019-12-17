@@ -1,0 +1,13 @@
+git init
+mkdir demo - > folder in location
+touch karthick.txt -> create files
+git status
+
+if u initialize any new repository
+it will create master branch along with git config files
+by default it was in master branch
+
+for whatever the files in side the folder each got
+2stages
+1 staged area
+2 unstaged area
